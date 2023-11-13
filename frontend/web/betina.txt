@@ -1,0 +1,2 @@
+
+"otpauth:\/\/totp\/bibliotechka_test:user1%40email.com?secret=LSNX257BSD5IQGZI&issuer=bibliotechka_test&algorithm=SHA1&digits=6&period=30"
