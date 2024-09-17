@@ -9,7 +9,7 @@ return [
             'showScriptName' => true,
         ],
         'request' => [
-            'cookieValidationKey' => 'test',
+            'cookieValidationKey' => 'your-secret-key',
         ],
         'mailer' => [
             'messageClass' => \yii\symfonymailer\Message::class

@@ -160,6 +160,7 @@ $user_id_in_basket = Yii::$app->session->get('user_id_in_basket', null); ?>
 
 </header>
 
+<!-- <main role="main" class="flex-shrink-0" style="background-image: url('../uploads/magical_library-ezgif.com-webp-to-jpg-converter.jpg')"> -->
 <main role="main" class="flex-shrink-0">
 
     <?php $user_type = Yii::$app->user->identity->type ?? null; ?>
@@ -232,14 +233,14 @@ $user_id_in_basket = Yii::$app->session->get('user_id_in_basket', null); ?>
     </div>
 </main>
 
-<footer class="footer mt-auto py-3 text-muted">
+<footer class="footer mt-auto py-3 text-white">
     <div class="container">
         <div class="row">
             <div class="col-6">
                 <p class="">&copy; <?= Html::encode(Yii::$app->name) ?> <?= date('Y') ?></p>
             </div>
             <div class="col-6 text-end">
-                <p><?= 2023 ?></p>
+                <p><?= 2024 ?></p>
             </div>
         </div>
     </div>
@@ -258,8 +259,8 @@ $user_id_in_basket = Yii::$app->session->get('user_id_in_basket', null); ?>
     position:block;
     height:10px;
     }
-    
-    
+
+
 
 </style>
 

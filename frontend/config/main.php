@@ -1,9 +1,9 @@
 <?php
 $params = array_merge(
     require __DIR__ . '/../../common/config/params.php',
-    require __DIR__ . '/../../common/config/params-local.php',
+    require __DIR__ . '/../../environments/dev/common/config/params-local.php',
     require __DIR__ . '/params.php',
-    require __DIR__ . '/params-local.php'
+    require __DIR__ . '/../../environments/dev/frontend/config/params-local.php'
 );
 
 return [
@@ -14,6 +14,7 @@ return [
     'components' => [
         'request' => [
             'csrfParam' => '_csrf-frontend',
+            'cookieValidationKey' => 'your-secret-key', // Add this line
         ],
         'user' => [
             'identityClass' => 'common\models\User',
@@ -44,6 +45,11 @@ return [
         ],
         ],
         
+    ],
+
+    'aliases' => [
+        '@webroot' => '/home/betina/Documents/PHP/phplibrary/environment/dev/frontend/web',  // Set this to where your web folder is in development
+        '@web' => '/',  // This means your app is accessible from the root of the development server
     ],
     'params' => $params,
 ];

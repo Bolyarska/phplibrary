@@ -158,6 +158,23 @@ $authorList = $model->getAuthorList();
         margin-bottom: 10px;
     }
 
+
+
+    .image-container {
+    max-width: 100%; /* Ensure container does not exceed its parent's width */
+    text-align: center;
+    }
+
+    .image-wrapper {
+    display: inline-block; /* Ensure the wrapper adjusts to the image size */
+    max-width: 100%; /* Ensure the wrapper does not exceed its parent's width */
+    }
+
+    .book-image {
+    max-width: 100%; /* Constrain image to the wrapper's width */
+    height: auto; /* Maintain aspect ratio */
+    }
+
 </style>
 
 

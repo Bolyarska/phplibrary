@@ -1,198 +1,198 @@
-main > .container, main > .container-fluid
-{
-    padding: 70px 15px 20px;
+main > .container,
+main > .container-fluid {
+  padding: 70px 15px 20px;
 }
 
 .footer {
-    background-color: #f5f5f5;
-    font-size: .9em;
-    height: 60px;
+  background-color: #f5f5f5;
+  font-size: 0.9em;
+  height: 60px;
 }
 
-.footer > .container, .footer > .container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
+.footer > .container,
+.footer > .container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .not-set {
-    color: #c55;
-    font-style: italic;
+  color: #c55;
+  font-style: italic;
 }
 
 /* add sorting icons to gridview sort links */
-a.asc:after, a.desc:after {
-    content: '';
-    left: 3px;
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border: solid 5px transparent;
-    margin: 4px 4px 2px 4px;
-    background: transparent;
+a.asc:after,
+a.desc:after {
+  content: "";
+  left: 3px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: solid 5px transparent;
+  margin: 4px 4px 2px 4px;
+  background: transparent;
 }
 
 a.asc:after {
-    border-bottom: solid 7px #212529;
-    border-top-width: 0;
+  border-bottom: solid 7px #212529;
+  border-top-width: 0;
 }
 
 a.desc:after {
-    border-top: solid 7px #212529;
-    border-bottom-width: 0;
+  border-top: solid 7px #212529;
+  border-bottom-width: 0;
 }
 
 .grid-view th,
 .grid-view td:last-child {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 .grid-view .filters input,
 .grid-view .filters select {
-    min-width: 50px;
+  min-width: 50px;
 }
 
 .hint-block {
-    display: block;
-    margin-top: 5px;
-    color: #999;
+  display: block;
+  margin-top: 5px;
+  color: #999;
 }
 
 .error-summary {
-    color: #a94442;
-    background: #fdf7f7;
-    border-left: 3px solid #eed3d7;
-    padding: 10px 20px;
-    margin: 0 0 15px 0;
+  color: #a94442;
+  background: #fdf7f7;
+  border-left: 3px solid #eed3d7;
+  padding: 10px 20px;
+  margin: 0 0 15px 0;
 }
 
 /* align the logout "link" (button in form) of the navbar */
 .navbar form > button.logout {
-    padding-top: 7px;
-    color: rgba(255, 255, 255, 0.5);
+  padding-top: 7px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
-@media(max-width:767px) {
-    .navbar form > button.logout {
-        display:block;
-        text-align: left;
-        width: 100%;
-        padding: 10px 0;
-    }
+@media (max-width: 767px) {
+  .navbar form > button.logout {
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 10px 0;
+  }
 }
 
 .navbar form > button.logout:focus,
 .navbar form > button.logout:hover {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .navbar form > button.logout:focus {
-    outline: none;
+  outline: none;
 }
 
 /* style breadcrumb widget as in previous bootstrap versions */
 .breadcrumb {
-    background-color: var(--bs-gray-200);
-    border-radius: .25rem;
-    padding: .75rem 1rem;
+  background-color: var(--bs-gray-200);
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem;
 }
 
-.breadcrumb-item > a
-{
-    text-decoration: none;
+.breadcrumb-item > a {
+  text-decoration: none;
 }
 
 /*my*/
 .btn-no-background {
-    background-color: transparent !important;
-    outline: none !important;
+  background-color: transparent !important;
+  outline: none !important;
 }
 
 .cart-btn {
-    color: #fcf4fc; /* Replace with your desired color */
-    text-decoration: none;
+  color: #fcf4fc; /* Replace with your desired color */
+  text-decoration: none;
 }
 
 .login {
-    color: #fcf4fc; /* Replace with your desired color */
-    text-decoration: none;
+  color: #fcf4fc; /* Replace with your desired color */
+  text-decoration: none;
 }
 
 .book-image {
-    width: 200px;
-    height: 300px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+  width: 200px;
+  height: 300px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .image-container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .image-wrapper {
-    margin: 5px;
+  margin: 5px;
 }
 
 .image-controls-container {
-    display: flex;
-    margin-top: 10px;
+  display: flex;
+  margin-top: 10px;
 }
 
 .image-controls {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .carousel-image {
-    height: 450px; 
+  height: 450px;
 }
 
 .card.custom-card {
-    color: #000000;
-    text-decoration: none;
-    transition: transform 0.3s ease-in-out;
-    margin-bottom: 5 px;
-    font-size: 17px;
+  color: #000000;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 5 px;
+  font-size: 17px;
 }
 
 .shadow.card.custom-card:hover {
-    color: #000000;
-    text-decoration: none;
-    transform: translateX(15px);
+  color: #000000;
+  text-decoration: none;
+  transform: translateX(15px);
 }
 
 .card-link {
-    color: #000000;
-    text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }
 
 .page-link {
-    background-color: #128843;
-    color: white;
-    border-radius: 5px;
+  background-color: #128843;
+  color: white;
+  border-radius: 5px;
 }
 
 .page-link:hover {
-    background-color: #05422b;
-    border-color: #05422b;
-    color: white;
+  background-color: #05422b;
+  border-color: #05422b;
+  color: white;
 }
 
 .page-item.disabled {
-    background-color: #383737;
-    color: white;
-    border-radius: 5px;
-    
+  background-color: #383737;
+  color: white;
+  border-radius: 5px;
 }
 
 .page-link.active,
 .active .page-link {
-    background-color: #0a5a30;
-    border-color: #0a5a30;
-    color: white;
+  background-color: #0a5a30;
+  border-color: #0a5a30;
+  color: white;
 }
 
 .page-item.active .page-link:hover {
-    background-color: #0a5a30;
-    color: white;
+  background-color: #0a5a30;
+  color: white;
 }
