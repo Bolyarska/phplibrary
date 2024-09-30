@@ -1,6 +1,6 @@
 <h1>Library Management System</h1>
 
-This project was developed using the Yii2 framework, designed to facilitate the management of a physical library's operations. The website is fully responsive, ensuring an optimal user experience across all devices.
+This project was developed using the Yii2 framework and was designed to facilitate the management of a physical library's operations.
 
 <h2>Overview of Features</h2>
 
