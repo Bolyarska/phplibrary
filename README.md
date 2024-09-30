@@ -18,6 +18,8 @@ Both administrators and employees may also act as readers, with the ability to b
 
 The system includes two-factor authentication (2FA) via Google Authenticator for enhanced security.
 
+Short demo: https://youtu.be/aovnovwEqV8 
+
 ![Screenshot from 2024-09-24 11-06-46](https://github.com/user-attachments/assets/bb9323d5-c18d-4353-90ed-c93f08c1e64b)
 ![Screenshot from 2024-09-24 10-26-24](https://github.com/user-attachments/assets/cf447754-4102-4419-ab73-3f85af957efb)
 ![Screenshot from 2024-09-24 10-26-30](https://github.com/user-attachments/assets/097982f5-d0a6-4b62-83bb-9f2988976db2)
